@@ -15,7 +15,7 @@ public class QuickController {
     private Integer age;
     @RequestMapping("/quick")
     public  String quick(){
-        return  "hello boot1"+name+age;
+        return  "hello boot1"+name+age ;
     }
 
     public String getName() {
